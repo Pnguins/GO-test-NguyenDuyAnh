@@ -63,6 +63,7 @@ The training process is handled by the `trainer.py` script.
 
 Open `trainer.py` and modify the values in the `training_config` dictionary according to the table below.
 
+
 | Variable Name | File Location | Description |
 | :--- | :--- | :--- |
 | `PATH_TO_TRAIN_FOLDER` | `trainer.py` | **(Required)** Path to your training dataset folder. |
@@ -83,7 +84,7 @@ python trainer.py
 - The inference process is handled by the inference.py script.
 **Step 1: Configure Inference Parameters** 
 Open inference.py and modify the following variables as described in the table.
-| Variable Name|	File Location |	Description |
+| Variable Name |	File Location |	Description |
 | :--- | :--- | :--- |
 | `FINETUNED_MODEL_PATH` |	`inference.py` |	**(Required)** Path to your saved .h5 model file generated during training. |
 | `IMAGE_URL` |	`inference.py` |	**(Required)** The full path to the new image you want to classify. |
