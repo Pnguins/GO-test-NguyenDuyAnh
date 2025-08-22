@@ -24,7 +24,7 @@ Follow these instructions to set up the project and run the training and inferen
 First, clone the repository and navigate into the project directory:
 ```bash
 git clone https://github.com/Pnguins/GO-test-NguyenDuyAnh.git
-cd your-repository-name
+cd GO-test-NguyenDuyAnh
 ```
 
 Next, install all the required Python libraries using the requirements.txt file:
