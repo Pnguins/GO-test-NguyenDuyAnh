@@ -83,6 +83,7 @@ python trainer.py
 ```
 ## Inference with a Trained Model
 - The inference process is handled by the inference.py script.
+  
 **Step 1: Configure Inference Parameters** 
 Open inference.py and modify the following variables as described in the table.
 
