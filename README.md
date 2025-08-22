@@ -18,12 +18,12 @@ Follow these instructions to set up the project and run the training and inferen
 ### 1. Prerequisites
 -   Python 3.11+
 -   `pip` package manager
--   Fine tune model: https://drive.google.com/file/d/1afz0dz3AyVjSKWImH5X-cC4qOq6yfx5W/view?usp=sharing
+-   Finetuned model: https://drive.google.com/file/d/1afz0dz3AyVjSKWImH5X-cC4qOq6yfx5W/view?usp=sharing
 
 ### 2. Installation
 First, clone the repository and navigate into the project directory:
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/Pnguins/GO-test-NguyenDuyAnh.git
 cd your-repository-name
 ```
 
@@ -31,7 +31,7 @@ Next, install all the required Python libraries using the requirements.txt file:
 ```bash
 pip install -r requirements.txt
 ```
-
+Then, download the finetuned model from the drive link mention in **1. Prerequisites**
 3. Dataset Preparation
 For the scripts to work correctly, your image dataset must be organized in the following directory structure. The class names (e.g., cats, dogs) are automatically inferred from the folder names.
 ```code
