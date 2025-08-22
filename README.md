@@ -84,6 +84,7 @@ python trainer.py
 **Step 1: Configure Inference Parameters** 
 Open inference.py and modify the following variables as described in the table.
 | Variable Name|	File Location |	Description |
+| :--- | :--- | :--- |
 | `FINETUNED_MODEL_PATH` |	`inference.py` |	**(Required)** Path to your saved .h5 model file generated during training. |
 | `IMAGE_URL` |	`inference.py` |	**(Required)** The full path to the new image you want to classify. |
 
