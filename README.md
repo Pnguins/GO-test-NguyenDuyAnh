@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 Then, download the finetuned model from the drive link mention in **1. Prerequisites**
 
-3. Dataset Preparation
+### 3. Dataset Preparation
 For the scripts to work correctly, your image dataset must be organized in the following directory structure. The class names (e.g., cats, dogs) are automatically inferred from the folder names.
 ```code
 /input
